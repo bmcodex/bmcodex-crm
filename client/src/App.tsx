@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import CRMLayout from "./components/CRMLayout";
 import Dashboard from "./pages/Dashboard";
 import Clients from "./pages/Clients";
+import Orders from "./pages/Orders";
+import Settings from "./pages/Settings";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { Loader2 } from "lucide-react";
 
@@ -55,8 +57,7 @@ function Router() {
         ) : (
           <Home />
         )}
-      </Route>
-      <Route path={"/clients"}>
+      </Route>      <Route path={"/clients"}>
         {isAuthenticated ? (
           <CRMLayout>
             <Clients />
@@ -65,8 +66,25 @@ function Router() {
           <Home />
         )}
       </Route>
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
+      <Route path={"/orders"}>
+        {isAuthenticated ? (
+          <CRMLayout>
+            <Orders />
+          </CRMLayout>
+        ) : (
+          <Home />
+        )}
+      </Route>
+      <Route path={"/settings"}>
+        {isAuthenticated ? (
+          <CRMLayout>
+            <Settings />
+          </CRMLayout>
+        ) : (
+          <Home />
+        )}
+      </Route>
+      <Route path={"/404"} component={NotFound} />  {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
   );
