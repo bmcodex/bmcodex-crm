@@ -524,7 +524,7 @@ copies or substantial portions of the Software.
 Jeśli masz pytania lub problemy:
 
 1. **GitHub Issues**: https://github.com/bmcodex/bmcodex-crm/issues
-2. **Email**: support@bmcodex.pl
+2. **Email**: kontakt@bmcodex.pl
 3. **Discord**: [Dołącz do serwera](https://discord.gg/bmcodex)
 
 ---
