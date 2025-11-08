@@ -7,6 +7,7 @@ Profesjonalny system CRM dedykowany dla warsztatów specjalizujących się w tun
 ## 📋 Spis treści
 
 - [Cechy](#cechy)
+- [Zrzut ekranu](#zrzut-ekranu-interfejsu)
 - [Wymagania systemowe](#wymagania-systemowe)
 - [Instalacja](#instalacja)
 - [Konfiguracja](#konfiguracja)
@@ -64,6 +65,22 @@ Profesjonalny system CRM dedykowany dla warsztatów specjalizujących się w tun
 - ✅ Szyfrowanie sesji
 - ✅ Bezpieczne przechowywanie haseł
 - ✅ Audyt działań użytkowników
+
+---
+
+## 🖼️ Zrzut ekranu interfejsu
+
+### Dashboard - Pulpit główny z KPI i statystykami
+
+![BMCODEX CRM Dashboard](./docs/dashboard-screenshot.png)
+
+**Widoczne elementy:**
+- **Sidebar nawigacyjny** z menu (Klienci, Zlecenia, Pliki, Statystyki, Ustawienia)
+- **KPI Cards** - Razem zleceń, Ukończone, Oczekujące płatności, Przychód, Aktywni klienci
+- **Top 5 Klientów** - Lista najważniejszych klientów
+- **Ostatnie Zlecenia** - Tabela z ostatnimi zleceniami
+- **Interfejs Liquid Glass** - Przezroczyste karty z efektami blur i gradientów
+- **Ciemny motyw** - Nowoczesny, przyjazny dla oczu design
 
 ---
 
