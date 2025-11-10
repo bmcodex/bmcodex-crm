@@ -550,6 +550,6 @@ Jeśli masz pytania lub problemy:
 
 Dziękujemy za korzystanie z BMCODEX CRM! Jeśli projekt Ci się podoba, daj nam ⭐ na GitHub.
 
-**Wersja**: 1.0.0  
-**Data ostatniej aktualizacji**: 2024-11-08  
+**Wersja**: 1.0.0
+**Data ostatniej aktualizacji**: 2025-11-11  
 **Autor**: Michał — BMCODEX.pl
